@@ -1,0 +1,21 @@
+Secara performa Linked List lebih baik daripada array
+
+Karena program ini tidak perlu membooking tempat dimemori yang bersebelahan, bisa ditempat yang kosong saja. Jadi bisa diposisi random
+
+Namun kita menambahkan informasi agar masing masing alamat dari array diaddress memori tersebut saling terhubung.
+
+Menggunakan Array bisa saja mengakibatkan memori jadi tidak efisien.
+karena array harus mencari jumlah alokasi memori yang berdekatan
+
+Mungkin katakanlah kalau kita bikin array 500 si program harus mencari 500 Alokasi Memori yang berdekatan 1 dengan yang lainnya.
+
+=== Linked List ==
+
+Head menunjukkan address memori.
+Value yang menunjukkan isinya.
+Dan kemudian yang berbeda dari Linked List itu memiliki Next Addressnya
+jadi dia bisa menunjuk value berikutnya ada diaddress keberapa
+
+dan dengan konsep demikian maka Linked List tidak harus berada di 1 Kavling, 1 Komplek Perumahan tapi dia bisa tersebar ke seluruh memori asal ada memori yang kosong dia bisa taruh disana dan kemudian tambahkan informasi untuk next adresss jadi lebih efisien secara memori manajemen
+
+Linked List ini terdiri dari Node jadi masing masing Linked List terdiri dari Node. Node itu memiliki Head, memiliki Value dan memiliki Next Value atau Next Address
